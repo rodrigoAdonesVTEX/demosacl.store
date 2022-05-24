@@ -84,7 +84,7 @@ function Page(props: Props) {
       <Suspense fallback={<ProductShelfSkeleton loading />}>
         <ProductShelf
           first={ITEMS_PER_SECTION}
-          selectedFacets={[{ key: 'productClusterIds', value: '140' }]}
+          selectedFacets={[{ key: 'productClusterIds', value: '138' }]}
           title="Most Wanted"
           suspenseData
         />
